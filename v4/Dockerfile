@@ -2,6 +2,7 @@ FROM node:4.4.6
 
 RUN apt-get update && \
     apt-get install -y \
+        postgresql-client-9.4 \
         xvfb \
         x11-xkb-utils \
         xfonts-100dpi \

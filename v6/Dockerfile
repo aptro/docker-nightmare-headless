@@ -31,3 +31,5 @@ RUN apt-get update && \
     && apt-get autoclean \
     && apt-get clean \
     && rm -rf /var/lib/api/lists/*
+
+    RUN npm install -g electron

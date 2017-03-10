@@ -32,4 +32,4 @@ RUN apt-get update && \
     && apt-get clean \
     && rm -rf /var/lib/api/lists/*
 
-    RUN npm install -g electron
+    RUN sudo npm install -g nightmare

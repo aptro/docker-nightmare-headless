@@ -5,7 +5,7 @@ RUN apt-get update
 
 # Installing the packages needed to run Nightmare
 RUN apt-get install -y \
-  postgresql-client-9.4 \
+  postgresql-client-9.6 \
   xvfb \
   x11-xkb-utils \
   xfonts-100dpi \
